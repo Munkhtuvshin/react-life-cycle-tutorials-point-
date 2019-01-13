@@ -22,6 +22,11 @@ class App extends React.Component {
    }
 }
 class Content extends React.Component {
+
+   constructor(props){
+    super(props)
+    console.log('constructory method called')
+   } 
    componentWillMount() {
       console.log('Component WILL MOUNT!')
    }
